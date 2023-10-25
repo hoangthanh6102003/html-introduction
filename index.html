@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Thong tin ca nhan</title>
+
+    <!-- Hàm gửi form lời nhắn -->
+    <script>
+        function checkReview() {
+            var reviewText = document.getElementById("reviewText").value;
+
+            if (reviewText === "") {
+                alert("Vui lòng nhập nội dung trước khi gửi.");
+            } else {
+                alert("Phương Thanh cảm ơn bạn đã dành lời yêu thương đến mình.");
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container" style="text-align: center;">
+        <!-- Thông tin và ảnh -->
+            <h1>Hoàng Nguyễn Phương Thanh</h1>
+            <p>Sinh viên thương mại điện tử tại UEH</p>
+        <h1 style="color: #3498db; font-family: Arial, sans-serif;">Một chút đáng yêu</h1>
+
+        <br>
+            <img src="my_birthday.jpeg" alt="Ảnh sinh nhật 1"
+                style="max-width: 300px; border-radius: 50%; box-shadow: 5px 5px 10px #888888;">
+            <img src="my_birthday2.jpeg" alt="Ảnh sinh nhật 2"
+                style="max-width: 300px; border-radius: 50%; box-shadow: 5px 5px 10px #888888;">
+           
+         <br>
+
+         <!-- Sở thích -->
+        <h2 style="text-align: left;">Sở thích:</h2>
+
+        <ul style="text-align: left;">
+            <li style="font-size: 20px;">Ăn uống: Bún đậu mắm tôm, gà rán, kem,...</li>
+            <li style="font-size: 20px;">Các môn học yêu thích: html, css</li>
+            <li style="font-size: 20px;">Yêu chó, thích nựng mèo</li>
+        </ul>
+
+        <!-- Nhạc yêu thích -->
+        <h2 style="text-align: left;">Nhạc yêu thích:</h2>
+
+        <iframe width="450" height="300" src="https://www.youtube.com/embed/5FCcXCchXDk"
+            title="NHẠC THIỀN - TĨNH TÂM - AN NHIÊN TỰ TẠI." frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
+
+        <br>
+        <br><br>
+
+    
+<!-- Giải thưởng -->
+        <h2 style="text-align: left;">Giải thưởng:</h2>
+
+                <a href="https://www.facebook.com/photo?fbid=847890653794088&set=a.696040122312476">
+                    <img src="ueh500.jpeg" alt="My Award"
+                        style="max-width: 500px; border-radius: 5px; box-shadow: 5px 5px 10px #888888;">
+                </a>
+
+        <br>
+        <br>
+        <br>
+
+<!-- Google map -->
+<iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.6542216957155!2d106.66585372520106!3d10.761109689386753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ee4595019ad%3A0xf2a1b15c6af2c1a6!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBLaW5oIHThur8gVFAuIEjhu5MgQ2jDrSBNaW5oIChDxqEgc-G7nyBCKQ!5e0!3m2!1svi!2s!4v1698266563001!5m2!1svi!2s"
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+    </div>
+
+    <!-- Form gửi lời nhắn -->
+        <div style="text-align: center; padding: 20px;">
+            <h1>Gửi lời nhắn yêu thích Phương Thanh</h1>
+            <input type="text" id="reviewText" placeholder="Nhập lời nhắn" style="width: 300px; padding: 5px;">
+            <br><br>
+            <button onclick="checkReview()">Gửi</button>
+        </div>
+
+          
+</body>
+
+</html>
